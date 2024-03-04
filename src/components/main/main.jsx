@@ -8,7 +8,9 @@ import styled from 'styled-components'
 
 const conteudoMain = styled.main`
 display: flex;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+height: 78vh;   
+    justify-content: center;
+    align-items: center;
 `
 const Div = styled.div`
 display: flex;
@@ -18,9 +20,8 @@ padding-top: 2rem;
 padding-bottom: 4rem;
 ` 
 
-const Img = styled.img`
-  width: 12%;  
-  border-radius: 0.3rem;
+const Img = styled.img` 
+  height: 50vh;
   padding: 0.5rem;
 `
 function Main() {
